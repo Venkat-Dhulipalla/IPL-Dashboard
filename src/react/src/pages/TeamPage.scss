@@ -1,0 +1,93 @@
+.TeamPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  animation: fadeIn 1s ease-in-out; /* Add a fade-in animation */
+
+  .team-name-section {
+    grid-column: span 3;
+    justify-self: start;
+    align-self: end;
+    animation: slideInLeft 1s ease-in-out; /* Add a slide-in-left animation */
+  }
+
+  .team-name {
+    font-size: 4rem;
+    margin-bottom: 80px;
+  }
+
+  .win-loss-section {
+    justify-self: center;
+    padding: 40px;
+    text-align: center;
+    animation: scaleIn 1s ease-in-out; /* Add a scale-in animation */
+  }
+
+  .pie-chart {
+    position: relative;
+    animation: fadeInUp 1s ease-in-out; /* Add a fade-in-up animation for the pie chart */
+
+    &:hover {
+      transform: scale(1.1); /* Increase scale on hover for ease-out effect */
+      border: 2px solid #4da375; /* Add a border on hover */
+    }
+  }
+
+  .match-detail-section {
+    grid-column: span 4;
+    animation: fadeInUp 1s ease-in-out; /* Add a fade-in-up animation */
+  }
+
+  .more-link {
+    align-self: center;
+    justify-self: center;
+    font-size: 1.5rem;
+    animation: fadeIn 1s ease-in-out; /* Add a fade-in animation */
+    a {
+      text-decoration: none;
+      color: #ffffff; /* Set the color for the link */
+      font-weight: bold;
+    }
+  }
+
+  /* Keyframe animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

@@ -1,0 +1,26 @@
+/* TeamTile.scss */
+
+.TeamTile {
+  height: 170px;
+  text-align: center;
+  border: 1px solid #98c1d9;
+  border-radius: 25px;
+  background: #bbcde5;
+  padding: 60px;
+  transition: transform 0.2s ease-in-out; /* Optional: Add a smooth transition effect */
+
+  &:hover {
+    transform: scale(1.03); /* Optional: Add a slight scale effect on hover */
+  }
+
+  .Nametitle {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #30343f; /* Set the color for the team name */
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent (.Nametitle) */
+  }
+}
