@@ -1,4 +1,4 @@
-# IPL DASHBOARD
+# Cricket Insights Hub: Unleashing the Power of IPL Dashboard
 
 ## Overview
 
