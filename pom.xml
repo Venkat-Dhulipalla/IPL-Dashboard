@@ -8,8 +8,8 @@
 		<version>2.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>io.javabrains</groupId>
-	<artifactId>ipl-dashboard</artifactId>
+	<groupId>myapp.venkat</groupId>
+	<artifactId>ipldashboard</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ipl-dashboard</name>
 	<description>Demo project for Spring Boot</description>
