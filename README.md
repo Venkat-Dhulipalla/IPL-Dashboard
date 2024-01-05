@@ -1,38 +1,58 @@
-# Java Brains IPL Dashboard
+# IPL DASHBOARD
 
-Browse your favorite IPL teams and access their past games details, wins and losses ratios - accessible by team and tournament year.
+## Overview
 
-This is a companion project for the Java Brains course on Full Stack Development using Spring Boot and React JS.
+Explore the performance history of my preferred IPL teams, delving into comprehensive details of their past matches, win-loss ratios, and tournament-year-specific statistics, all easily accessible by team and year.
 
-Check out the playlist below to see this app built end-to-end from scratch.
+🚀 Explore the cricketing universe with the IPL Dashboard! Dive into the action [here](http://ec2-18-219-41-233.us-east-2.compute.amazonaws.com:8080/)! 🏏
 
-Full Playlist:
-https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
+
+# Workflow
+
+## Backend Development:
+
+1. Start with Spring Boot to build a robust backend server.
+2. Implement Spring Batch for seamless automation of data processing tasks.
+3. Utilize JPA, Repositories, and JPQL for efficient data interactions and management.
+4. Integrate HSQL DB to handle data storage in a lightweight yet reliable manner.
+
+## Frontend Development:
+
+1. Leverage React JS to create dynamic and interactive user interfaces.
+2. Design and implement components for the Team Page and Matches Page, providing a seamless user experience.
+
+## Data Integration:
+
+1. Use the Kaggle IPL dataset to populate the backend with comprehensive IPL data.
+2. Set up data pipelines with Spring Batch to fetch, process, and store data efficiently.
+
+## AWS Integration:
+
+1. Deploy the backend on AWS EC2 instances for scalability and reliability.
+2. Utilize AWS S3 for storing and serving multimedia resources, enhancing overall performance.
 
 
 ## Screenshots
 
+### Home Page
+
+<img width="1418" alt="Screenshot 2024-01-04 at 8 01 26 PM" src="https://github.com/Venkat-Dhulipalla/IPL-Dashboard/assets/113265826/ffadf3e7-d8c4-4e29-b45f-03e4921c794b">
+
+
+
 ### Team Page
 
-![Team Page Page](/README/team-page.jpg)
+<img width="1418" alt="Screenshot 2024-01-04 at 8 02 07 PM" src="https://github.com/Venkat-Dhulipalla/IPL-Dashboard/assets/113265826/0b81851d-cfdb-4de7-96fe-91c4ee776a75">
+
+<img width="1418" alt="Screenshot 2024-01-04 at 8 02 22 PM" src="https://github.com/Venkat-Dhulipalla/IPL-Dashboard/assets/113265826/958e4908-15a8-47d7-bcbf-7504ea708225">
+
 
 ### Matches Page
 
-![Matches Page](/README/matches-page.jpg)
+<img width="1418" alt="Screenshot 2024-01-04 at 8 02 33 PM" src="https://github.com/Venkat-Dhulipalla/IPL-Dashboard/assets/113265826/e6ad6e86-e33c-402f-8373-faceb1f48e1f">
 
-## Technologies
 
-* Spring Boot
-* Spring Batch
-* Java Persistence API, Repositories and JPQL
-* HSQL DB
-* React JS
-* AWS BeanStalk
 
 ## Data Set Used
-https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020/metadata
+https://www.kaggle.com/datasets/vora1011/ipl-2008-to-2021-all-match-dataset
 
-
-## Contributing
-Look at the Issues tab for feature improvements and bugs filed for this repo. Make sure you watch the [YouTube playlist](https://youtube.com/playlist?list=PLqq-6Pq4lTTa8V613TZhGq4o8hSgkMGQ0
-)  to see how this application is built first! 
